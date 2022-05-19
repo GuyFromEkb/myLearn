@@ -1,0 +1,29 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;500&display=swap');
+* {
+    margin: 0;
+    box-sizing: border-box;
+    font-family: Roboto;
+    font-weight: 500;
+    line-height: 16px;
+}
+
+.container {
+    margin: 0 auto;
+    width: 1140px;
+    height: 1750px;
+}
+
+.container-news {
+    padding: 85px 0;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-rows: 260px 260px;
+    grid-auto-rows: 260px;
+    row-gap: 60px;
+    column-gap: 60px;
+}
+
+.news__text {
+    font-size: 14px;
+    margin-top: 15px;
+}
